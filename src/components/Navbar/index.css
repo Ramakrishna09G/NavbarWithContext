@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.nav-bar-container {
+  width: 520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .nav-bar-container {
+    width: 1180px;
+  }
+}
+
+.nav-dark-theme {
+  background-color: #333333;
+}
+.nav-light-them {
+  background-color: #ffffff;
+  border-bottom-color: #171f46;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-bottom: 5px;
+}
+.website-logo {
+  width: 55px;
+}
+.nav-links-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 105px;
+}
+.link-item {
+  text-decoration: none;
+}
+.item {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.light-item {
+  color: #ffffff;
+}
+.dark-item {
+  color: #171f46;
+}
+.theme-img {
+  width: 45px;
+}
+.show {
+  display: block;
+}
+.not-show {
+  display: none;
+}
+.theme-change-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

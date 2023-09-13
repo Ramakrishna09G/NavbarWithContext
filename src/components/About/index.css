@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.about-bg-container {
+  max-width: 1550px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-container {
+  width: 520px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  .about-container {
+    width: 1180px;
+  }
+}
+.dark-theme {
+  background-color: #000000;
+}
+.light-theme {
+  background-color: #ffffffff;
+}
+.about-img {
+  width: 85px;
+}
+.about-heading {
+  color: #000000;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.light-about-heading {
+  color: #ffffff;
+}
+.dark-about-heading {
+  color: #000000;
+}
+.show {
+  display: block;
+}
+.not-show {
+  display: none;
+}
